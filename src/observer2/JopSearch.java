@@ -11,12 +11,13 @@ public class JopSearch {
 
         Scriber scriber = new Subscriber("Vanja");
         Scriber scriber1 = new Subscriber("Katja");
+        Scriber scriber2 = new Subscriber("Masha");
 
         site.add(scriber);
         site.add(scriber1);
+        site.add(scriber2);
 
         site.addVacancy("Third Java Position");
-
         site.removeVacancy("Second Java Position");
     }
 }
